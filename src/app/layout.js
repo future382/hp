@@ -5,7 +5,7 @@ import HeaderNav from "@/components/HeaderNav";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Adkinsm Home",
+  title: "Biltune Home",
   description: "Front-end Developer / Open Sourceror / Blogger / Android Player",
 };
 
