@@ -9,8 +9,10 @@ import { MoonIcon } from '@heroicons/react/24/solid'
 export default function HeaderNav({ children }) {
     let navigations = [
         { name: 'Home', href: '/' },
+        { name: 'About', href: 'https://blog.biltune.top/about' },
         { name: 'AI', href: 'https://ai.biltune.top/' },
-        { name: 'cat', href: 'https://cat.game.biltune.top/' },
+        { name: 'Friends', href: 'https://blog.biltune.top/friends/' },
+        { name: 'Game', href: 'https://cat.game.biltune.top/' },
     ]
 
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false),
